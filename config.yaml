@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: best practices
+  description: for developer to kickstart their application
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: scaffolded frameworks
+    circleci.com/project-slug: 
+  tags:
+    - python
+  links:
+    - url: 
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: manoj
+  system: public-websites
